@@ -11,17 +11,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 
-  /* ========================================================================================
+  /* ================================================================================================================================
                        PANDUAN UNTUK SISWA
-     -----------------------------------------------------
-     1. Cari tanda ">>> GANTI DI SINI" untuk menemukan
-        bagian yang perlu diubah dengan data kamu sendiri.
-     2. Kamu TIDAK perlu mengubah bagian CSS (bagian yang
-        diawali kurung kurawal { } ini) kecuali ingin
-        bereksperimen dengan warna.
-     3. Simpan file ini, lalu buka dengan double click
-        di browser (Chrome/Edge/Firefox) untuk melihat hasilnya.
-     ======================================================================================= */
+     --------------------------------------------------------------------------------------------------------------------------------
+     1. Cari tanda ">>> GANTI DI SINI" untuk menemukan bagian yang perlu diubah dengan data kamu sendiri.
+
+     2. Kamu TIDAK perlu mengubah bagian CSS (bagian yang diawali kurung kurawal { } ini) kecuali ingin bereksperimen dengan warna.
+
+     3. Simpan file ini, lalu buka dengan double click di browser (Chrome/Edge/Firefox) untuk melihat hasilnya.
+     ================================================================================================================================ */
 
   :root{
     --bg: #04050c;
