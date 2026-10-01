@@ -393,10 +393,10 @@
     <!-- >>> GANTI DI SINI: tambah atau hapus <span class="skill">...</span> sesuai kemampuanmu -------------------------->
     <div class="skills">
       <span class="skill">Kerja Sama Tim</span>
-      <span class="skill">Pengoperasian Perangkat Digital</span>
+      <span class="skill">Suka Berdiskusi</span>
       <span class="skill">Microsoft Office</span>
       <span class="skill">Penyuntingan Foto & Video Dasar</span>
-      <span class="skill">Suka Berdiskusi</span>
+      <span class="skill">Pengoperasian Komputer</span>
     </div>
   </section>
 
@@ -408,7 +408,7 @@
 
       <!-- >>> GANTI DI SINI: duplikat blok .card ini untuk menambah proyek lain ------------------------------------------>
       <div class="card">
-        <h3>Fire Alarm Berbasis Arduino</h3>
+        <h3>Simulasi Fire Alarm</h3>
         <p>Menggunakan simulasi arduino di Wokwi untuk merancang alarm kebakaran dengan sensor suhu dan panas.</p>
         <a href="https://wokwi.com/projects/471571007189853185" target="_blank">lihat proyek →</a>
       </div>
