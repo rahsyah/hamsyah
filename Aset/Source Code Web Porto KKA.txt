@@ -19,6 +19,10 @@
      2. Kamu TIDAK perlu mengubah bagian CSS (bagian yang diawali kurung kurawal { } ini) kecuali ingin bereksperimen dengan warna.
 
      3. Simpan file ini, lalu buka dengan double click di browser (Chrome/Edge/Firefox) untuk melihat hasilnya.
+
+     4. Simpan dengan nama index.html
+
+     5. Koneksikan project github ini dengan aplikasi vercel.app agar dapat online di internet
      ================================================================================================================================ */
 
   :root{
@@ -71,7 +75,6 @@
     z-index: 2;
   }
 
-  /* jendela ala terminal / code editor untuk bagian hero */
   .terminal{
     background: var(--term-bg);
     -webkit-backdrop-filter: blur(16px);
@@ -335,7 +338,7 @@
 
 <div class="wrap">
 
-  <!-- ========================================= HERO / JENDELA TERMINAL ==================== -->
+  <!-- ========================================= HERO / JENDELA TERMINAL ============================================== -->
   <div class="terminal" id="heroTerminal">
     <div class="terminal-bar">
       <span class="dot red"></span>
@@ -348,21 +351,21 @@
       <div class="avatar">
         <!-- >>> GANTI DI SINI: ganti src dengan foto kamu, contoh: src="foto-saya.jpg"
              Simpan file foto di folder yang sama dengan file HTML ini -->
-        <div class="avatar-placeholder"><img src="https://raw.github.com/fotodiri205x245px.png" alt="Foto profil"></div>
+        <div class="avatar-placeholder"><img src="https://raw.github.com/fotosayaukuran205x245px.png" alt="Foto profil"></div>
         
       </div>
 
       <div class="hero-text">
         <p class="eyebrow">// Project Web Build · Koding dan Kecerdasan Artifisial</p>
 
-        <!-- >>> GANTI DI SINI: nama kamu ------------------------------------------------------>
-        <h1>hamsyah<span class="cursor"></span></h1>
+        <!-- >>> GANTI DI SINI: nama kamu ------------------------------------------------------------------------------>
+        <h1>NAMA PANJANG AKU<span class="cursor"></span></h1>
 
-        <!-- >>> GANTI DI SINI: kelas dan sekolah ----------------------------------------------->
+        <!-- >>> GANTI DI SINI: kelas dan sekolah ----------------------------------------------------------------------->
         <p class="role"> X MP5 (60) @SMK Pawiyatan Surabaya</p>
 
         <div class="links">
-          <!-- >>> GANTI DI SINI: ganti tautan (/) sesuai akun Media Sosial kamu ---------------->
+          <!-- >>> GANTI DI SINI: ganti nama profil setelah icon slash (/) sesuai akun Media Sosial kamu ---------------->
          <a href="https://www.tiktok.com/@kebabrahsyah" target="_blank">Tiktok</a>
          <a href="https://www.instagram.com/Balmung1989" target="_blank">Instagram</a>
          <a href="https://www.youtube.com/@senjaverseID" target="_blank">Youtube</a>
@@ -371,56 +374,55 @@
     </div>
   </div>
 
-  <!-- ======================================================== TENTANG SAYA ================== -->
+  <!-- ======================================================== TENTANG SAYA ========================================== -->
   <section>
     <p class="label">01_tentang-saya</p>
     <h2>Tentang saya</h2>
     <!-- >>> GANTI DI SINI: ceritakan sedikit tentang dirimu, 2-3 kalimat cukup -->
     <p>
-       Halo, saya pengampu mata pelajaran Data Analys Admistrasi, Informatika dan 
-       Koding & Kecerdasan Artifisial. Saya suka membuat proyek kecil untuk
-       mengasah kemampuan, dan sedang belajar membangun website serta
-       program sederhana untuk mempermudah pekerjaan.
+       Halo, saya Seorang remaja yang dinamis dan berorientasi pada praktik, 
+       yang tidak hanya mengasah pemahaman teori di dalam kelas tetapi juga terbiasa dengan simulasi kerja riil 
+      serta penyelesaian masalah secara langsung..
     </p>
   </section>
 
-  <!-- ============================================================ KEMAMPUAN ================= -->
+  <!-- ============================================================ KEMAMPUAN ========================================= -->
   <section>
     <p class="label">02_kemampuan</p>
     <h2>Kemampuan</h2>
-    <!-- >>> GANTI DI SINI: tambah atau hapus <span class="skill">...</span> sesuai kemampuanmu -->
+    <!-- >>> GANTI DI SINI: tambah atau hapus <span class="skill">...</span> sesuai kemampuanmu -------------------------->
     <div class="skills">
-      <span class="skill">Organisatoris</span>
-      <span class="skill">Basic Trading</span>
+      <span class="skill">Kerja Sama Tim</span>
+      <span class="skill">Pengoperasian Perangkat Digital</span>
       <span class="skill">Microsoft Office</span>
-      <span class="skill">network administration</span>
-      <span class="skill">Junior Frontend Developer</span>
+      <span class="skill">Penyuntingan Foto & Video Dasar</span>
+      <span class="skill">Suka Berdiskusi</span>
     </div>
   </section>
 
-  <!-- =================================================================== PROYEK ============ --->
+  <!-- =================================================================== PROYEK ===================================== --->
   <section>
     <p class="label">03_proyek</p>
     <h2>Proyek saya</h2>
     <div class="projects">
 
-      <!-- >>> GANTI DI SINI: duplikat blok .card ini untuk menambah proyek lain ------------------>
+      <!-- >>> GANTI DI SINI: duplikat blok .card ini untuk menambah proyek lain ------------------------------------------>
       <div class="card">
-        <h3>Perpustakaan Sekolah</h3>
-        <p>Perpustakaan digital sekolah, dibuat untuk mempermudah pekerjaan pustakawan dan anggota perpustakaan.</p>
-        <a href="https://wiyatapustaka.app" target="_blank">lihat proyek →</a>
+        <h3>Fire Alarm Berbasis Arduino</h3>
+        <p>Menggunakan simulasi arduino di Wokwi untuk merancang alarm kebakaran dengan sensor suhu dan panas.</p>
+        <a href="https://wokwi.com/projects/471571007189853185" target="_blank">lihat proyek →</a>
       </div>
 
       <div class="card">
-        <h3>Profil Jurusan</h3>
-        <p>Homepage Jurusan Manajemen Perkantoran yang berfungsi untuk mengenalkan jurusan kepada siswa baru.</p>
-        <a href="https://mppawiyatan.app" target="_blank">lihat proyek →</a>
+        <h3>Website Portofolio</h3>
+        <p>Merancang situs web pribadi atau profil dengan menggunakan HTML, CSS, dan JavaScript dasar.</p>
+        <a href="https://webku.vercel.app" target="_blank">lihat proyek →</a>
       </div>
 
       <div class="card">
-        <h3>Game Quiz</h3>
+        <h3>Game Edukasi</h3>
         <p>Game berbasis quiz yang memperkenalkan tentang dasar-dasar coding dan pemprograman JavaScript.</p>
-        <a href="https://vercel.app" target="_blank">lihat proyek →</a>
+        <a href="https://codexpawi.vercel.app/monopoli.html" target="_blank">lihat proyek →</a>
       </div>
     </div>
   </section>
@@ -433,8 +435,8 @@
       </div>
       <div class="contact-links">
         <!-- >>> GANTI DI SINI: ganti tautan sesuai akun kamu -->
-        <a class="btn primary" href="mailto:hamsyah.pawiyatan@gmail.com">Kirim email</a>
-        <a class="btn ghost" href="https://wa.me/6282233353722" target="_blank">WhatsApp</a>
+        <a class="btn primary" href="mailto:tulisemailmu@gmail.com">Kirim email</a>
+        <a class="btn ghost" href="https://wa.me/6281234567890" target="_blank">WhatsApp</a>
         
       </div>
     </div>
