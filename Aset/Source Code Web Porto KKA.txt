@@ -366,8 +366,8 @@
 
         <div class="links">
           <!-- >>> GANTI DI SINI: ganti nama profil setelah icon slash (/) sesuai akun Media Sosial kamu ---------------->
-         <a href="https://www.tiktok.com/@kebabrahsyah" target="_blank">Tiktok</a>
          <a href="https://www.instagram.com/Balmung1989" target="_blank">Instagram</a>
+         <a href="https://www.tiktok.com/@kebabrahsyah" target="_blank">Tiktok</a>
          <a href="https://www.youtube.com/@senjaverseID" target="_blank">Youtube</a>
         </div>
       </div>
@@ -442,7 +442,7 @@
     </div>
   </section>
   <footer>
-    2026 · requiemzero supported by Flowstate.getlayers.ai
+    2026 · @requiemzero supported by Flowstate.getlayers.ai
   </footer>
 </div>
 
